@@ -1,54 +1,119 @@
-# VizAI: Data Insights Assistant 🌟
+# VizAI-DataInsights_Assistant
 
-VizAI is an AI-powered data visualization and analysis tool that simplifies complex datasets by generating meaningful insights and visualizations. Designed for data enthusiasts, analysts, and students, it empowers users to query their data in natural language, execute AI-generated code, and create interactive visualizations—all with ease.
-
----
-
-## 📖 Table of Contents
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [How It Works](#-how-it-works)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+VizAI-DataInsights_Assistant is an AI-powered data visualization and analysis tool designed to simplify complex data analysis tasks. Users can upload datasets, ask questions in natural language, and receive insights, visualizations, or even Python code to analyze their data. The tool ensures a user-friendly experience by leveraging AI and safe code execution environments.
 
 ---
 
-## ✨ Features
+## 🌟 Inspiration
 
-- **Natural Language Querying**: Enter plain-language questions to get data insights.
-- **AI-Powered Code Generation**: Generate Python code using AI to analyze and visualize data.
-- **Dynamic Visualization**: Create interactive charts and graphs using Matplotlib, Seaborn, and Plotly.
-- **Real-Time Analysis**: Query for live insights and trends.
+The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges faced by individuals—technical and non-technical alike—in understanding complex datasets. The goal was to bridge the gap by creating a tool that combines AI's power with user-friendly interfaces, making data analysis accessible to everyone.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ What It Does
 
-- **Frontend**: Streamlit
-- **Backend**: Python
-- **APIs**: Together AI, E2B for code execution
-- **Libraries**: Matplotlib, Seaborn, Plotly, Pandas
-- **Other Tools**: E2B (online interpreter), Docker (for containerization)
+1. **Natural Language Querying**: Users can ask questions in plain English.
+2. **Data Analysis & Insights**: AI processes the dataset and provides meaningful insights.
+3. **Dynamic Visualizations**: Generates visualizations from user queries.
+4. **Code Generation**: AI creates Python code to analyze the dataset and executes it safely in a sandbox environment (E2B).
+5. **User-Friendly Interface**: Built with Streamlit for easy interaction, even for non-technical users.
 
 ---
 
-## 🖥️ Installation
+## 🛠️ How We Built It
 
-### Prerequisites
-1. Python 3.9+ installed.
-2. Streamlt
-3. Together.ai
+### **Technologies Used**
+- **Frontend**: [Streamlit](https://streamlit.io/) for a clean and interactive user interface.
+- **Backend**: 
+  - [Together AI](https://together.ai) for natural language processing and query interpretation.
+  - [E2B](https://e2b.dev) sandbox for executing AI-generated Python code securely.
+- **Data Processing**:
+  - **pandas** for data manipulation.
+  - **Matplotlib** and **Plotly** for generating visualizations.
+- **Development Tools**:
+  - VSCode for coding.
+  - Python for backend scripting.
+- **Additional Libraries**: `re`, `warnings`.
 
-### Steps
-1. **Clone the repository**:
-   ```bash
-   [git clone https://github.com/your-username/vizai.git](https://github.com/ShahxHussain/VizAI_Data_Visualisation_Assistant.git)
-   cd VizAI_Data_Visualisation_Assistant
-   pip install -r requirements.txt
-   streamlit run ai_visualisation.py
-   ```
-   
+---
+
+## 🚀 Challenges We Ran Into
+
+1. **Dynamic Visualization Generation**: Enabling AI to generate relevant Python code dynamically based on user queries.
+2. **Code Execution in E2B**: Ensuring the AI-generated code runs smoothly and securely in the sandbox environment.
+3. **Seamless Integration**: Connecting Together AI for query interpretation with E2B for executing code while maintaining real-time responses.
+
+---
+
+## 🏆 Accomplishments We're Proud Of
+
+- Successfully created an intuitive system capable of transforming complex data tasks into simple queries.
+- Developed dynamic visualizations that respond to user input.
+- Built a user-friendly interface accessible to individuals without technical expertise.
+
+---
+
+## 📚 What We Learned
+
+- **E2B Sandbox**: Discovered and integrated E2B for executing AI-generated code securely.
+- **AI Integration**: Learned how to combine AI and data processing pipelines effectively.
+- Enhanced our skills in designing user-centric applications with minimal friction.
+
+---
+
+## 🔮 What's Next for VizAI-DataInsights_Assistant
+
+1. **Module 2: Insights & PDF Reports**  
+   - Generate detailed data insights with downloadable PDFs.
+   - Include trends, actionable recommendations, and visual summaries.
+
+2. **Module 3: Real-Time Database Insights**  
+   - Enable users to query live databases for real-time insights.
+   - Automate visualizations and generate instant reports.
+
+---
+
+## 💻 Built With
+
+- [E2B](https://e2b.dev)
+- [GitHub](https://github.com)
+- [Matplotlib](https://matplotlib.org/)
+- [pandas](https://pandas.pydata.org/)
+- [Plotly](https://plotly.com/)
+- [Python](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [Together AI](https://together.ai)
+- [VSCode](https://code.visualstudio.com/)
+
+---
+
+## 📝 Installation
+
+```bash
+# Installation and Setup Guide  
+
+## **Step 1: Prerequisites**  
+
+Ensure you have the following installed on your system:  
+
+- **Node.js** (>= 16.0.0)  
+- **npm** or **yarn** (package managers for Node.js)  
+- **Git** (for cloning the repository)  
+
+---
+
+## **Step 2: Clone the Repository**  
+
+Clone the project repository from GitHub:  
+```bash
+git clone https://github.com/yourusername/yourproject.git
+
+
+## **Step 3: Install Dependencies**
+
+pip install -r requirements.txt
+
+## **Step 4: Get Together.ai and E2B Apis**
+
+
+
