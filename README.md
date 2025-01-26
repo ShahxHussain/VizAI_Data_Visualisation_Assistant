@@ -130,7 +130,7 @@ cd VizAI_Data_Visualisation_Assistant
 pip install -r requirements.txt
 ```
 
-## **Step 4: Run code locally **
+## **Step 4: Run code locally**
 
 ```bash
 streamlit run ai_data_visualisation.py
