@@ -87,25 +87,24 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 
 ---
 
-## 📝 Installation
+## 📝 Installation and Setup Guide  
+## **Step 1: Prerequisites**  
 
 ```bash
-# Installation and Setup Guide  
-
-## **Step 1: Prerequisites**  
 
 Ensure you have the following installed on your system:  
 
 - **Python**  
 - **Git** (for cloning the repository)  
-```
+````
 ---
 
 ## **Step 2: Clone the Repository**  
 
 Clone the project repository from GitHub:  
 ```bash
-git clone https://github.com/yourusername/yourproject.git
+git clone https://github.com/ShahxHussain/VizAI_Data_Visualisation_Assistant
+cd VizAI_Data_Visualisation_Assistant
 ```
 
 ## **Step 3: Install Dependencies**
