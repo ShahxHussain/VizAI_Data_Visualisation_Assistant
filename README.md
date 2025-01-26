@@ -1,5 +1,8 @@
 ![Hack the Future](https://github.com/ShahxHussain/VizAI_Data_Visualisation_Assistant/blob/main/Extras/Hack%20the%20future.png)
 
+
+
+
 # VizAI-DataInsights_Assistant
 
 VizAI-DataInsights_Assistant is an AI-powered data visualization and analysis tool designed to simplify complex data analysis tasks. Users can upload datasets, ask questions in natural language, and receive insights, visualizations, or even Python code to analyze their data. The tool ensures a user-friendly experience by leveraging AI and safe code execution environments.
@@ -92,13 +95,10 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 ## 📝 Installation and Setup Guide  
 ## **Step 1: Prerequisites**  
 
-```bash
-
 Ensure you have the following installed on your system:  
 
 - **Python**  
 - **Git** (for cloning the repository)  
-````
 ---
 
 ## **Step 2: Clone the Repository**  
