@@ -95,13 +95,10 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 ## 📝 Installation and Setup Guide  
 ## **Step 1: Prerequisites**  
 
-```bash
-
 Ensure you have the following installed on your system:  
 
 - **Python**  
 - **Git** (for cloning the repository)  
-````
 ---
 
 ## **Step 2: Clone the Repository**  
