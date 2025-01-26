@@ -3,7 +3,7 @@
 
 
 
-# VizAI-DataInsights_Assistant
+# VizAI-DataInsights_&_Visualisation_Assistant
 
 VizAI-DataInsights_Assistant is an AI-powered data visualization and analysis tool designed to simplify complex data analysis tasks. Users can upload datasets, ask questions in natural language, and receive insights, visualizations, or even Python code to analyze their data. The tool ensures a user-friendly experience by leveraging AI and safe code execution environments.
 
@@ -25,7 +25,22 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 
 ---
 
-## 🛠️ How We Built It
+## 🧠 How It Works
+
+  Natural Language Query:
+  - Users submit questions via the frontend.
+  - LLMs (Large Language Models) process the query and generate corresponding Python code.
+
+  Code Execution:
+  - The AI-generated code is executed in real-time using the E2B online interpreter.
+  - Results are processed and sent back as visualizations or insights.
+
+  Visualization & Reports:
+  - Data is visualized using Python libraries like Matplotlib and Plotly.
+
+---
+
+## 🛠️ How I Built It
 
 ### **Technologies Used**
 - **Frontend**: [Streamlit](https://streamlit.io/) for a clean and interactive user interface.
@@ -42,7 +57,7 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 
 ---
 
-## 🚀 Challenges We Ran Into
+## 🚀 Challenges I Ran Into
 
 1. **Dynamic Visualization Generation**: Enabling AI to generate relevant Python code dynamically based on user queries.
 2. **Code Execution in E2B**: Ensuring the AI-generated code runs smoothly and securely in the sandbox environment.
@@ -50,7 +65,7 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 
 ---
 
-## 🏆 Accomplishments We're Proud Of
+## 🏆 Accomplishments I'm Proud Of
 
 - Successfully created an intuitive system capable of transforming complex data tasks into simple queries.
 - Developed dynamic visualizations that respond to user input.
@@ -58,7 +73,7 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 
 ---
 
-## 📚 What We Learned
+## 📚 What I Learned
 
 - **E2B Sandbox**: Discovered and integrated E2B for executing AI-generated code securely.
 - **AI Integration**: Learned how to combine AI and data processing pipelines effectively.
@@ -144,3 +159,22 @@ VizAI/
 └── requirements.txt
 ```
 
+## 🤝 Contributing
+
+We welcome contributions to VizAI-DataInsights_Assistant! Whether you're fixing a bug, adding new features, or improving the documentation, we appreciate your input. Here’s how you can contribute:
+1. Fork the repository:
+   - Click on the "Fork" button at the top of this page to create a copy of the repository in your own GitHub account.
+2. Clone your fork: Clone your forked repository to your local machine:
+```
+git clone https://github.com/YOUR_USERNAME/VizAI_Data_Visualisation_Assistant
+```
+4. Create a feature branch:
+```
+git checkout -b feature-name
+```
+3. Commit your changes:
+```
+git commit -m "Add new feature"
+```
+4. Push to your branch and open a Pull Request.
+  - Go to the original repository and submit a pull request (PR) with your changes. Be sure to explain the purpose of your changes and the impact they’ll have.
