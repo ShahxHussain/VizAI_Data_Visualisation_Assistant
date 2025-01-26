@@ -178,3 +178,9 @@ git commit -m "Add new feature"
 ```
 4. Push to your branch and open a Pull Request.
   - Go to the original repository and submit a pull request (PR) with your changes. Be sure to explain the purpose of your changes and the impact they’ll have.
+
+# 🙏 A Heartfelt Thank You
+
+I would like to extend my sincere gratitude to **[Devpost](https://devpost.com)**, the **[Open Community](https://www.linkedin.com/company/opencommunity/about/)**, and the **[AI/ML API](https://aimlapi.com/)** for organizing this incredible hackathon and providing such an amazing platform to learn, innovate, and collaborate.
+
+---
