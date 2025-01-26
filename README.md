@@ -96,10 +96,9 @@ The inspiration for **VizAI-DataInsights_Assistant** stems from the challenges f
 
 Ensure you have the following installed on your system:  
 
-- **Node.js** (>= 16.0.0)  
-- **npm** or **yarn** (package managers for Node.js)  
+- **Python**  
 - **Git** (for cloning the repository)  
-
+```
 ---
 
 ## **Step 2: Clone the Repository**  
@@ -107,13 +106,28 @@ Ensure you have the following installed on your system:
 Clone the project repository from GitHub:  
 ```bash
 git clone https://github.com/yourusername/yourproject.git
-
+```
 
 ## **Step 3: Install Dependencies**
 
+```bash
 pip install -r requirements.txt
+```
 
-## **Step 4: Get Together.ai and E2B Apis**
+## **Step 4: Run code locally **
+
+```bash
+streamlit run ai_data_visualisation.py
+```
+
+## **Step 5: Get Together.ai and E2B Apis**
+
+- Get Together api [here](https://api.together.ai/)
+- Get E2B api [here](https://e2b.dev/)
+1. Sigup
+2. Proceed To Dashboard
+3. Get your api key at keys section
 
 
+## **Step 5: **
 
