@@ -89,7 +89,7 @@ def upload_dataset(code_interpreter: Sandbox, uploaded_file) -> str:
 
 def main():
     """Main Streamlit application."""
-    st.title("📊 AI Data Visualization Agent")
+    st.title("📊 VizAI: Data Visualization Assistant")
     st.write("Upload your dataset and ask questions about it!")
 
     # Initialize session state variables
@@ -103,7 +103,6 @@ def main():
     with st.sidebar:
         st.header("API Keys and Model Configuration")
         st.session_state.together_api_key = st.sidebar.text_input("Together AI API Key", type="password")
-        st.sidebar.info("💡 Everyone gets a free $1 credit by Together AI - AI Acceleration Cloud platform")
         st.sidebar.markdown("[Get Together AI API Key](https://api.together.ai/signin)")
         
         st.session_state.e2b_api_key = st.sidebar.text_input("Enter E2B API Key", type="password")
