@@ -127,6 +127,18 @@ streamlit run ai_data_visualisation.py
 2. Proceed To Dashboard
 3. Get your api key at keys section
 
+## 📂 Project Structure
 
-## **Step 5: **
+```
+VizAI/
+├── Notebooks/
+│   ├── V1.0
+│   ├── V2.0
+├── .gitignore
+├── requirements.txt
+├── .devcontainer
+├── README.md
+├── ai_data_visualisation.py
+└── requirements.txt
+```
 
